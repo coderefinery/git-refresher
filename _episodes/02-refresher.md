@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: Getting started with Git
+title: Getting started with Git and GitHub
 teaching: 30
 exercises: 0
 questions:
@@ -9,7 +9,7 @@ objectives:
   - Learn the necessary prerequisites before attending a CodeRefinery workshop
 ---
 
-# Getting started with Git 
+# Getting started with Git and GitHub
 
 ## What you need to know
 
@@ -140,6 +140,39 @@ $ git push -u origin master
 ```
 
 Your commits should now be online.
+
+### Explore an existing repository on GitHub
+
+Here we invite you to explore and visualize an **existing Git repository** on GitHub.
+
+- The goal is to get a glimpse of the wider picture before going into the details during the workshop.
+- Most of the Git commands you will learn can be done in the browser,
+  which can be a more intuitive way to get started.
+- When browsing a GitHub repository we are looking at **two layers**. It will become clear during the 
+  workshop what is in the Git layer and what is in the GitHub layer.
+
+Have a look at this
+[example repository](https://github.com/coderefinery/example-project)
+which contains a few commits and branches with some simple code.
+
+ - Have a look at the [repository](https://github.com/coderefinery/example-project).
+   See which files it contains, and when they were last changed. The middle column is the commit 
+   message of the last change to a file and you can click it to see the changeset.
+ - Explore the [commit history](https://github.com/coderefinery/example-project/commits/master).
+   Note that the commits are identified by a unique hash codes (e.g. `7a6a2df`).
+ - Browse commit changesets by clicking the hashes or the commit message.
+ - Click on the [Issues](https://github.com/coderefinery/example-project/issues) tab. 
+   Note that there are old [closed issues](https://github.com/coderefinery/example-project/issues?q=is%3Aissue+is%3Aclosed).
+ - Note that there are [branches](https://github.com/coderefinery/example-project/network) 
+   (click "Insights" and "Network").
+ - Inspect the [merge commit](https://github.com/coderefinery/example-project/commit/6ffca389016e3304c75a96ea593c3ac8db7eb352) when the branch `fix-sum-function` was merged into the `master` branch. 
+ - Note the commit message of the commit on the `fix-sum-function` branch. The "closes #1" string 
+   has a special meaning since it automatically closes an issue and links together the commit and the 
+   issue.
+
+While some of these are GitHub features, it all can be done on other sites, or
+by yourself without GitHub at all.
+
 
 ---
 
