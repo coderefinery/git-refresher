@@ -98,6 +98,13 @@ You can replace nano with vim, emacs or any other editor of your choice:
 $ git config --global core.editor nano
 ```
 
+We use a `git graph` alias very often (more info later).  Configure it
+like this:
+```shell
+$ git config --global alias.graph "log --all --graph --decorate --oneline"
+```
+
+
 To see where this information is stored, use:
 ```shell
 $ git config --list --show-origin
