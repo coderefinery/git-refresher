@@ -31,7 +31,7 @@ information you'd like to reveal. For example, you may want to review [these
 instructions](https://help.github.com/articles/keeping-your-email-address-private/)
 for keeping your email address private provided at GitHub.
 Instructions for removing GitHub accounts 
-[can be found here](https://coderefinery.github.io/installation/#instructions-for-removing-accounts).
+[can be found here](https://coderefinery.github.io/installation/accounts/#instructions-for-removing-accounts).
 
 ## Setting up SSH keys
 
@@ -72,7 +72,7 @@ Please also verify your installation, according to
 
 Git should be installed on your computer as part of the Bash installation, which is 
 described in detail in these 
-[installation instructions](https://coderefinery.github.io/installation/bash/#installation-on-windows).	
+[installation instructions](https://coderefinery.github.io/installation/bash/#installation-on-windows-using-git-bash).	
 
 Please also verify your installation, according to 
 [these instructions](https://coderefinery.github.io/installation/git/#how-to-verify-the-installation).
